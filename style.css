@@ -1,0 +1,136 @@
+/*un menu assez sympatique!*/
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family:arial, sans-serif;
+}
+
+header{
+	text-align:center;
+	padding:20px;
+
+}
+
+
+/*================================================
+	LE MENU
+==================================================*/
+#menu{
+	width:100%;
+}
+
+nav ul{
+	display:block;
+	margin:auto;
+	width:100%;
+	border-bottom:4px #ccc solid;
+	text-align:center;
+	padding:10px;
+}
+
+nav ul li{
+	display:inline-block;
+	border-right: 3px gray solid;
+	padding-right:4px;
+}
+nav ul li:first-child{
+	border-left: 3px gray solid;
+	padding-left:4px;
+}
+
+nav ul li a, nav ul li a:visited{
+	padding:10px;
+	color:#555;
+	font-weight: bold;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background:#ddd;
+}
+
+
+#menu a#lien-menu1{
+	border-bottom:5px #38b solid;
+}
+#menu #sous-menu1{
+	background-color:#38b;
+}
+
+#menu a#lien-menu2{
+	border-bottom:5px #83b solid;
+}
+#menu #sous-menu2{
+	background-color:#83b;
+}
+
+#menu a#lien-menu3{
+	border-bottom:5px #bbb solid;
+}
+#menu #sous-menu3{
+	background-color:#bbb;
+}
+
+#menu a#lien-menu4{
+	border-bottom:5px #8b3 solid;
+}
+#menu #sous-menu4{
+	background-color:#8b3;
+}
+
+#menu a#lien-menu5{
+	border-bottom:5px #b38 solid;
+}
+#menu #sous-menu5{
+	background-color:#b38;
+}
+
+.sous-menu{
+	color: white;
+}
+.sous-menu a, .sous-menu a:visited{
+	color:#eee;
+	text-decoration: none;
+	font-weight:bold;
+}
+.sous-menu a:hover{
+	color:#fff;
+}
+
+
+
+
+.sous-menu{
+	display:block;
+	width:100%;
+	text-align:center;
+	color:white;
+	padding:10px;
+}
+
+/*================================================
+	FIN LE MENU
+==================================================*/
+
+#content{
+	width:60%;
+	margin:auto;
+	padding:20px;
+	/*background:#eee;
+	border-left: 5px #ddd solid;
+	border-right: 5px #ddd solid;*/
+	min-height:50vh;
+}
+
+#content img{
+	display:block;
+	max-width:100%;
+	margin:10px auto;
+}
+
+footer{
+	text-align:center;
+}
